@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="/resources/static/assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="clock-container">
+            <div id="clock">00:00:00</div>
+            <div id="quote">명언이 표시됩니다.</div>
+        </div>
+        <div class="todo-container">
+            <h2>Todo List</h2>
+            <ul id="todo-list"></ul>
+            <input type="text" id="todo-input" placeholder="할 일을 입력하세요">
+            <button id="todo-add">Add</button>
+        </div>
+        <div class="weather-container">
+            <h2>Weather</h2>
+            <div id="weather-info"></div>
+        </div>
+        <div class="subway-container">
+            <h2>Subway</h2>
+            <div id="subway-info"></div>
+        </div>
+        <div class="restaurant-container">
+            <h2>Restaurants</h2>
+            <ul id="restaurant-list"></ul>
+        </div>
+        <div class="sidebar-container">
+            <div class="sidebar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="sidebar">
+                <h2>Board</h2>
+                <ul>
+                    <li><a href="#">익명 게시판</a></li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="/resources/static/assets/js/script.js"></script>
+</body>
+
+</html>

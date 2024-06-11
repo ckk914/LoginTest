@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.clock-container,
+.todo-container,
+.weather-container,
+.subway-container,
+.restaurant-container,
+.sidebar-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.clock-container {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+
+.todo-container {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+
+.weather-container {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.subway-container {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.restaurant-container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.sidebar-container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+/* 추가적인 CSS 스타일링 */
